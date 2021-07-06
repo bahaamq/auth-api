@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint **/*.js",
-    "test": "jest --coverage",
-    "test-watch": "jest --watchAll --coverage"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
   },
   "keywords": [],
   "author": "",
